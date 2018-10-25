@@ -348,18 +348,18 @@ client.login(process.env.BOT_TOKEN);
 
 const client2 = new Discord.Client({disableEveryone: true});
 
-const prefix = "2";
+const prefix2 = "2";
 /////////////////////////
 ////////////////////////
 
 client2.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix2)) return undefined;
     
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix2.length)
 
     if(command === `ping`) {
     let embed = new Discord.RichEmbed()
@@ -376,12 +376,12 @@ client2.on('message', async msg =>{
 //////////////////////
 client2.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix2)) return undefined;
     
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix2.length)
 
     if(command === `avatar`){
 	if(msg.channel.type === 'dm') return msg.channel.send("Nope Nope!! u can't use avatar command in DMs (:")
@@ -416,7 +416,7 @@ client2.on('message', async msg =>{
 //////////////////////
 client2.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix2)) return undefined;
     
     const args = msg.content.split(' ');
 	const searchString = args.slice(1).join(' ');
@@ -425,7 +425,7 @@ client2.on('message', async msg => {
 	const serverQueue = queue.get(msg.guild.id);
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix2.length)
 
 	if (command === `play`) {
 		const voiceChannel = msg.member.voiceChannel;
@@ -678,18 +678,18 @@ client2.login(process.env.BOT_TOKEN2);
 
 const client3 = new Discord.Client({disableEveryone: true});
 
-const prefix = "3";
+const prefix3 = "3";
 /////////////////////////
 ////////////////////////
 
 client3.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix3)) return undefined;
     
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix3.length)
 
     if(command === `ping`) {
     let embed = new Discord.RichEmbed()
@@ -706,12 +706,12 @@ client3.on('message', async msg =>{
 //////////////////////
 client3.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix3)) return undefined;
     
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix3.length)
 
     if(command === `avatar`){
 	if(msg.channel.type === 'dm') return msg.channel.send("Nope Nope!! u can't use avatar command in DMs (:")
@@ -746,7 +746,7 @@ client3.on('message', async msg =>{
 //////////////////////
 client3.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(prefix3)) return undefined;
     
     const args = msg.content.split(' ');
 	const searchString = args.slice(1).join(' ');
@@ -755,7 +755,7 @@ client3.on('message', async msg => {
 	const serverQueue = queue.get(msg.guild.id);
 
 	let command = msg.content.toLowerCase().split(" ")[0];
-	command = command.slice(prefix.length)
+	command = command.slice(prefix3.length)
 
 	if (command === `play`) {
 		const voiceChannel = msg.member.voiceChannel;
