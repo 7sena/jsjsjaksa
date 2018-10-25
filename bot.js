@@ -34,7 +34,7 @@ client.on('ready', () => {
     console.log('')
     console.log('')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`Logged in as [ ${client.user.tag}! ]`);
+  console.log(`Logged in as [ 1! ]`);
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
   console.log('[           BOT IS ONLINE         ]')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
@@ -511,7 +511,7 @@ client2.on('ready', () => {
     console.log('')
     console.log('')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`Logged in as [ ${client2.user.tag}! ]`);
+  console.log(`Logged in as [ 2! ]`);
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
   console.log('[           BOT IS ONLINE         ]')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
@@ -989,7 +989,7 @@ client2.on('ready', () => {
     console.log('')
     console.log('')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-  console.log(`Logged in as [ ${client3.user.tag}! ]`);
+  console.log(`Logged in as [ 3! ]`);
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
   console.log('[           BOT IS ONLINE         ]')
   console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
